@@ -1,0 +1,61 @@
+.project{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    flex-direction: column;
+    height: 500px
+}
+
+.project h2{
+    color: #636160;
+}
+.project p{
+    color: #A5A4A4;
+    font-size: 22px;
+}
+.project button,.sidebar button{
+    border: none;
+    border-radius: 10px;
+    background-color: #322F2A;
+    color: rgb(212, 209, 209);
+    padding: 15px;
+    cursor: pointer;
+    font-size: 16px;
+}
+img{
+    max-width: 100px;
+}
+
+.sidebar{
+    position: absolute;
+    left: 0;
+    height: 100%;
+    background-color: #0F0E0C;
+    width: 25%;
+    border-top-right-radius: 10px;
+}
+.sidebar .texts{
+    padding: 10px;
+    margin: 20px;
+}
+
+.task{
+    height: 35px;
+}
+.task h2{
+    width: 80%;
+    text-align: center;
+}
+.task h2:hover{
+    background-color: #1C1815;
+    cursor: pointer;
+}
+
+.sidebar button::before{
+    content: "+";
+    font-size: 17px;
+    padding-right: 5px;
+}
+.sidebar h2{
+    color: white;
+}

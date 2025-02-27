@@ -1,0 +1,30 @@
+dialog{
+    background-color: white;
+    border: none;
+    border-radius: 10px;
+    font-size: 18px;
+    padding: 10px;
+    box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1)
+}
+dialog::backdrop{
+    background-color: rgba(0, 0, 0, 0.5);
+}
+dialog p,h2{
+    padding: 10px;
+    font-weight: bold;
+    color: oklch(0.553 0.013 58.071);
+    margin-block: 4px;
+    margin-bottom: 4px;
+}
+dialog button{
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    margin: 0 auto;
+    padding: 10px;
+    border: none;
+    background-color: green;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+}

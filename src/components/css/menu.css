@@ -1,0 +1,51 @@
+.proj{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 500px;
+    font-size: 22px;
+}
+.proj hr{
+    width: 700px;
+}
+
+.info h2,p{
+    color: grey;
+}
+.task-info input{
+    outline: none;
+    padding: 10px;
+    font-size: 20px;
+    background-color: #E0DFDD;
+    color: black;
+    border: none;
+    border-radius: 7px;
+    resize:none;
+}
+.task-info input:focus{
+    border: 1px solid rgb(55, 55, 179);
+    border-color: rgb(55, 55, 179);   
+}
+.task-info button{
+    border: none;
+    font-size: 22px;
+    cursor: pointer;
+    padding: 10px;
+    background-color: green;
+    border-radius: 10px;
+    color: white;
+    margin-left: 10px;
+}
+
+.del-btn{
+    display: flex;
+    justify-content: end;
+}
+.del-btn button{
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    padding: 8px;
+    font-size: 22px;
+}
