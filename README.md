@@ -36,5 +36,6 @@ npm start
 5. Создайте **Pull Request**
 6. 
 ## 📞 Контакты
-📧 Email: ba4966183@gmail.com/
+📧 Email: ba4966183@gmail.com
+
 
